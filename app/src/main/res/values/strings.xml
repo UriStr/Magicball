@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Magic ball</string>
+    <string name="ballContentDescription">ballIsHere</string>
+</resources>
