@@ -14,7 +14,6 @@
         android:id="@+id/ballLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/ballContentDescription"
         android:gravity="center">
 
         <ImageView
@@ -22,6 +21,7 @@
             android:layout_marginTop="30sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/ballContentDescription"
             android:src="@drawable/ball1" />
 
     </RelativeLayout>
@@ -36,7 +36,7 @@
             android:id="@+id/pressButton"
             android:layout_width="120sp"
             android:layout_height="55sp"
-            android:background="@drawable/metallicheskaya_knopka"/>
+            android:background="@drawable/custom_button_ripple"/>
 
     </RelativeLayout>
 
